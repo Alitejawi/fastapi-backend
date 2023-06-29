@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 import redis
 import json
-import request
+import requests
 import asyncio
 
 app = FastAPI()
